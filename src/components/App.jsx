@@ -24,7 +24,7 @@ export function App() {
         setBad(bad + 1);
         break;
       default:
-        setGood(good + 1);
+        return;
     }
   };
 
